@@ -1,6 +1,6 @@
 ---
 title: "2023"
-date: 2023-12-2T09:13:36-06:00
+date: 2023-12-02T09:13:36-06:00
 draft: false
 toc: false
 images:
