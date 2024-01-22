@@ -36,14 +36,14 @@ theme = "hello-friend-ng"
 [languages]
     
   [languages.en.params]
-    title = "0x1gh0st"
+    title = "0x0h0st"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
     subtitle  = "welcome"
 
     [languages.en.params.logo]
-      logoText = "0x1gh0st blog"
+      logoText = "0x0h0st blog"
       logoHomeLink = ""
     # or
     #
