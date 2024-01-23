@@ -7,7 +7,7 @@ images:
 tags:
   - tryhackme
 ---
-![[Pasted image 20240123131147.png]]
+![](/image/20240123131147.png)
 ### Nmap scan
 
 Trying to know which port are open :-
