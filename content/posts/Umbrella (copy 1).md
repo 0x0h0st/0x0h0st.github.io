@@ -264,7 +264,7 @@ curl -s http://10.10.48.181:5000/v2/umbrella/timetracking/manifests/latest
 ![](/image/20240123004540.png)
 
 at this point we have `database username`, `password` 
-###### Login to Database using login and password 
+#### Login to Database using MySQL (port 3306) 
 
 How to login in database :- ![](/image/20240123005454.png)
 after login to database enumerate it :- 
