@@ -72,7 +72,7 @@ now we have
 It is just a login page where we can't do anything ( i have checked page source, dirbuster and found noting )
 ![](/image/20240123000128.png)
 
-## looking Port 5000 (Docker Registry (API: 2.0))
+## Checking Port 5000 (Docker Registry (API: 2.0))
 
 [5000 - Pentesting Docker Registry](https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry)
 
@@ -90,7 +90,7 @@ curl -s http://10.10.48.181:5000/v2/umbrella/timetracking/tags/list
 ```
 ![](/image/20240123003134.png)
 3. now getting manifests 
-```sh
+```shell
 curl -s http://10.10.48.181:5000/v2/umbrella/timetracking/manifests/latest
 {
    "schemaVersion": 1,
@@ -314,8 +314,7 @@ now for the last part
 ## conclusion
 
 site used :- 
-https://www.revshells.com/
-(https://www.revshells.com/)
+[Reverse shell](https://www.revshells.com/)
 [stabilizing shell](https://0xffsec.com/handbook/shells/full-tty/)
 [HackTricks for port 5000](https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry#enumeration-using-docker)
 [HackTricks for PrivEsc](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation#privilege-escalation-with-2-shells-and-host-mount)
