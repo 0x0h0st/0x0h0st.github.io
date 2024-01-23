@@ -74,7 +74,7 @@ It is just a login page where we can't do anything ( i have checked page source,
 
 ## looking Port 5000 (Docker Registry (API: 2.0))
 
-[5000 - Pentesting Docker Registry][https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry]
+[5000 - Pentesting Docker Registry](https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry)
 
 Enumerating it using `curl`
 1. list repositories 
@@ -298,10 +298,10 @@ once i get a shell form the webpage we will enumerate it.
 here log is mounted file in container and it is collecting log form the web site (port 8080):-
 now for the last part
 
-[PrivEsc][https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation#privilege-escalation-with-2-shells-and-host-mount]
+[PrivEsc](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation#privilege-escalation-with-2-shells-and-host-mount)
 ### Privilege Escalation with 2 shells and host mount
 
-```sh 
+```shell
 1. cp /bin/bash . #From non priv inside mounted folder
 # You need to copy it from the host as the bash binaries might be diferent in the host and in the container
 2. chown root:root bash #From container as root inside mounted folder
@@ -314,7 +314,8 @@ now for the last part
 ## conclusion
 
 site used :- 
-[For Reverse shell][https://www.revshells.com/]
-[stabilizing shell][https://0xffsec.com/handbook/shells/full-tty/]
-[HackTricks for port 5000][https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry#enumeration-using-docker]
-[HackTricks for PrivEsc][https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation#privilege-escalation-with-2-shells-and-host-mount]
+https://www.revshells.com/
+(https://www.revshells.com/)
+[stabilizing shell](https://0xffsec.com/handbook/shells/full-tty/)
+[HackTricks for port 5000](https://book.hacktricks.xyz/network-services-pentesting/5000-pentesting-docker-registry#enumeration-using-docker)
+[HackTricks for PrivEsc](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation#privilege-escalation-with-2-shells-and-host-mount)
