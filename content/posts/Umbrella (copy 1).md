@@ -1,8 +1,6 @@
 ---
 title: Umbrella
 date: 2024-01-22T10:13:34-06:00
-draft: false
-toc: false
 images: 
 tags:
   - tryhackme
