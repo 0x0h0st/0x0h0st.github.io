@@ -8,7 +8,7 @@ tags:
   - tryhackme
 ---
 
-Found the First QR code on linked in ![[Pasted image 20231201080155.png]]
+Found the First QR code on linked in ![](20231201080155.png)
 ![[Pasted image 20231201080103.png]] 
 Link > https://assets.tryhackme.com/additional/aoc2023/5d60a/809cd.png?hss_channel=lcp-14055650
 
